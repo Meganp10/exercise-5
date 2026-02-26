@@ -6,16 +6,26 @@
    <!--Made by <Megan Pilkey> on <Febuary 26, 2026>-->
  
   <style>
+    * { box-sizing: border-box; }
+    
     body {
       margin: 0;
-      padding: 20px;
+      padding: 30px;
       line-height: 1.6;
       font-family: Garamond, serif;
+      background-color: #FFFFE0;
+    }
+    
+    h1, h2, h3 {
+      font-family: Helvetica, sans-serif;
     }
 
     header {
       padding: 30px;
-      margin-bottom: 0;
+      margin-bottom: 25px;
+      background-color: #FF4500;
+      color: #FFFFE0;
+      position: relative;
     }
 
     header h1 {
@@ -24,18 +34,32 @@
     }
 
     .badge {
+      position: absolute;  
+      top: 40px;           
+      right: 20px;
+      
       padding: 5px 15px;
       font-size: 0.8em;
       font-weight: bold;
+      background-color: #E0FFFF;
+      color: #000000; 
+      border-radius: 10px;
+      width: 13%;
     }
 
     #main-content {
-      padding: 0;
+      display: inline-block;
+      padding: 25px;
       vertical-align: top;
+      background-color: #FF69B4;
+      color: #FFF0F5;
+      width: 65%;
     }
 
     #main-content h2 {
       margin-top: 0;
+      border-bottom: 2px solid #FFF0F5;
+
     }
 
     #main-content p {
@@ -43,8 +67,13 @@
     }
 
     #sidebar {
-      padding: 20px;
+      display: inline-block;
+      padding: 30px;
       vertical-align: top;
+      background-color: #DB7093;
+      color: #FFF5EE; 
+      width: 30%;
+      margin-left: 4%;
     }
 
     #sidebar h3 {
@@ -59,11 +88,17 @@
 
     #sidebar li {
       padding: 8px 0;
+      border-bottom: 2px solid #FFF5EE;
     }
 
     footer {
-      padding: 20px;
+      position: sticky;
+      bottom: 0;
+      padding: 10px;
       margin-top: 20px;
+      background-color: #E0FFFF;
+      color: #000000;
+      text-align: center;
     }
   </style>
 </head>
